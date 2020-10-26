@@ -1,0 +1,4 @@
+* cascading style sheet
+* it makes web page look good
+* html structures the web page,we can add content and show content
+* css, allows you to style the html component
