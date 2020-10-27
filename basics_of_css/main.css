@@ -1,0 +1,37 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview{
+  background: #ff1b68;
+}
+
+h1{
+  color:white;
+  font-family: 'Anton', sans-serif;
+}
+
+.section-title{
+  color:green;
+}
+
+/* we cannot use ids more than once for styling,
+but we can use classes more than once for styling */
+
+/* here the order of over riding matters only for same class or selector
+but it doesnt matter for different class over riding the css of the same element */
+
+/* cascading means, multiple rules can apply to the same element */
+
+/* specifity
+* resolve conflicts arising from multiple rules
+* inline styles > 
+* id selectors
+* .class,:psuedo class and [attribute] selectors
+* <tag> and ::psuedo-element selectors */
+
+/* INHERITANCE
+* if we add a "*" selector , it applies stlyes to all the elements
+*but it has the least priority, so it is inefficient
+* instead we can use body
+ */
