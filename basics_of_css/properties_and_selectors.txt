@@ -1,0 +1,7 @@
+selectors         properties            values
+ex:               background-color      red
+div               width                 30%
+.blog post        color                 #fa923f
+#main-title       margin                10px
+[disabled]        display               block
+*

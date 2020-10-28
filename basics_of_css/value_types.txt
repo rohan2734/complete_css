@@ -1,0 +1,22 @@
+values are tightly coupled to specific property
+
+predifned options: 
+ex:
+display:block, overflow:auto
+
+colors:
+  ex:
+  background:red;
+  color:#fa923f;
+  color:#ccc;
+
+length,sizes & numbers
+  ex:
+  height:100px;
+  width:20%
+  order:1
+
+Functions:
+  ex:
+  background: url(...);
+  transform: scale(...);

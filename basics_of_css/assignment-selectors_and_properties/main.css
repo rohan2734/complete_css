@@ -1,0 +1,36 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  font-family: sans-serif;
+  color:red;
+}
+
+.second-task code{
+  color: green;
+} 
+
+code{
+  font-family: monospace;
+  color:red;
+}
+
+li{
+  background-color: black;
+}
+
+.first-task{
+  color: white;
+}
+
+ol li{
+  background-color: black;
+  color: white;
+}
+/* here we can also use 
+li + li {
+  background-color: black;
+}
+
+for the 6th task, here the first li is excluded, since it doesnt have any sibling */
