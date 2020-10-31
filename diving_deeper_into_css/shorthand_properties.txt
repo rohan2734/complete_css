@@ -1,0 +1,22 @@
+* combine values of multiple properties in a single property(the shorthand property)
+border-width: 2px;
+border-style:dashed | solid;
+border-color:orange;
+
+*shorthand property
+border: 2px dashed orange
+
+*if some of the properties are not mentioned in the shorthand, then the default would be chosen
+* also the order doest matter in the shorthand 
+
+
+margin-top: 5px;
+margin-right:10px;
+margin-bottom:5px;
+margin-left:10px;
+
+*shorthand:
+margin: 5px 10px 5px 10px;
+margin: 5px 10px; top&bottom  left&right
+
+margin:10px //applied to all the sides

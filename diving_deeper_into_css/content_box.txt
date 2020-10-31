@@ -1,0 +1,15 @@
+* here when we inspect the box ,we see that the height is set to 558px,
+* where as , we have set it to 528px, 
+* it is because 528 + (10 top + 10 bottom) padding + (5 top + 5 bottom)border
+* if we add that to 528, it becomes, 558px, but we wanted that to include in the height,but it excluded it,
+* also when we use width:100% , the width is set little bit to the right.
+* this behaviour is due to   content_box
+* we can set this behaviour by adding box-sizing property to the element
+* the default is content-box , we can set to border-box, that means height including border, and padding
+* but we still see the box to be flowing out of the page, becuase we didnt inlucde margin in the calculation of the width
+* but now the height becomes 498px, which is (10*2 padding) + (5*2 border) + 498 = 528px
+* we often over ride the default property of box-sizing to be border-box
+
+*now if we want to avoid the effect where the element is moved to the right,
+* we can simply remove the margin
+

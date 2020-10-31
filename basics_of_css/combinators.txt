@@ -1,0 +1,77 @@
+/* combinators allows us to combine multiple selectors to be more precise about  what you want to select */
+/* example is #product-overview h1{} here it is  a combinator, since we used multiple selectors */
+
+/* UNDERSTANDING COMBINATORS
+  *Adjacent sibling 
+  div + p{
+
+  }
+  * these can be more than two also
+  example :
+    h2+ p { 
+      color:red
+    }
+    <div>
+      <h2>Not applied</h2>
+      <p>css applied</p> //style is applied to this p , since it is adjacent to the h2
+      <h2>Not applied <h2>
+      <h3>Not applied </h3>
+      <p>Not applied </p>
+      <h2>Not applied </h2>
+      <p>css applied </p> //style is applied to this p , since it is adjacent to the h2
+    </div>
+  
+  *General sibling
+    div ~ p{
+
+    }
+    example :
+    h2 ~p{
+      color:red;
+    }
+      <h2>Not applied</h2>
+      <p>css applied</p> 
+      <h2>Not applied <h2>
+      <h3>Not applied </h3>
+      <p>css applied </p>
+      <h2>Not applied </h2>
+      <p>css applied </p>
+      //here all the p get the styles applied even though the second p doesnt follow the p directlty 
+      //for general sibling, if there is a  h2 for a p , then the styles are applied
+      // p doesnt need to follow the sibling h2 directly
+  
+  * Child
+    div > p{
+      color: red
+    }
+    <div>
+      <div>not applied</div>
+      <p>css applied</p>
+      <div>not applied</div>
+      <article>
+        <p>not applied><p>
+      </article>
+      <p>css applied</p>
+    </div>
+
+    //here the p nested in the article, it doesnt get the css applied,but the other p's get their css applied
+    //css is applied to only the direct p for the div 
+    
+    *Descendant
+    div p{
+      color:red
+    } 
+
+    <div>
+      <div>not applied</div>
+      <p>css applied</p>
+      <div>not applied</div>
+      <article>
+        <p>not applied><p>
+      </article>
+      <p>css applied</p>
+    </div>
+
+    here the level doesnt matter, all the p's get the css applied.
+    it doesnt have to be the direct child.
+*/

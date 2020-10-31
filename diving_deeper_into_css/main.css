@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+#product-overview{
+  background: #ff1b68;
+  padding: 10px; 
+  border: 5px black solid; /* this is the shortform, insttead of writing,border-style,border-width,border-color */
+  /* border-style: solid;
+  border-color: black;
+  border-width: 5px;*/
+  margin: 10px; 
+  width: 100%; 
+  /* height: 100%; */
+  height: 528px;
+  box-sizing: border-box; /*refer content_box.txt */
+}
+/* when height:100%, then it takes the margin of the h1, also
+the reason for this is , it takes the 100% of the available height only given by parent*/
+/* if we want the section to be 100%, then we need to change the height of the main, then body, then html to be 100%, then
+we will be able to achieve this,
+well the alternative is to provide the height as 528px also */
+#product-overview h1{
+  color:white;
+  font-family: 'Anton', sans-serif;
+}
+
+h1{
+  font-family: sans-serif;
+}
+
+
+.section-title{
+  color:green;
+}
+
+/* every element in css, is ineterpreted as a box by css */
+/* margin collapsing, here it occurs between product-overview section and also h1 */
+/* even thought they have seperate margins, the margin is collapsed */
+
+

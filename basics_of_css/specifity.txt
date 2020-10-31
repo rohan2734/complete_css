@@ -1,0 +1,6 @@
+ specifity
+* resolve conflicts arising from multiple rules
+* inline styles > 
+* id selectors
+* .class,:psuedo class and [attribute] selectors
+* <tag> and ::psuedo-element selectors 

@@ -1,0 +1,18 @@
+* since the div and nav are not inline elements but are block elements, they are on the new line.
+  now , after setting them as inline, we have them on the same line,
+
+* now we want to set the nav element to the right
+
+* now we can try one thing, since we have list items, that are turned into inline,and a ul also turned into ul, 
+  we can use text-align:right on the .main-nav
+
+* but nothing changes, if we inspect, the elements(lis) are aligned to the right,
+  due to inheritance the ul also has the text-align:right .
+
+* so the css is applied, but doesnt have any effect, bcz, ul is inline block element and doesnt take the full width
+  it only has width as it content needs, so text-align :right doesnt do anything here
+
+* so we need to instead apply width so the width: is widht of the navbar - div
+  now the ul still has problem, since it has addnl padding and margin, so we make them to 0
+
+* 

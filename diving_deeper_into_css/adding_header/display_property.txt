@@ -1,0 +1,22 @@
+ DISPLAY PROPERTY
+* the display property allows us to change the behaviour of the element from 
+  block to inline or block and inline 
+* we cannot set margin top and bottom for inline elements
+* they are not positioned as the block
+ex: for inline
+  anchor tags, they are rendererd as inline by default
+  
+ex: for block
+  list item behaves as a block element, it takes full width of the content in a line
+
+ex:for inline-block
+  when we have set the li item. style as display:inline-block
+  here it is not only inline but it is also a block element, 
+  and we can add padding, and margin 
+ 
+  when we apply a padding:20px  for the anchor tag, we see that it is only affected on left and right
+  but when we apply on the list item( here the list item is inline block) ,
+  then the padding is applied around it , top, bottom, left and right
+  that is the difference. 
+
+  later we will see , we use flex-box for posiitioning elements side by side, as it is better than inline-block

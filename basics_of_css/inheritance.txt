@@ -1,0 +1,5 @@
+* INHERITANCE
+* if we add a "*" selector , it applies stlyes to all the elements
+*but it has the least priority, so it is inefficient
+* instead we can use body
+ 
