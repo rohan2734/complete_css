@@ -1,0 +1,4 @@
+* for the vertical alignment of the nav options we use
+
+* vertical-align:middle on both the nav containing the 
+  options and the div containing the brand name

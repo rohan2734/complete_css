@@ -15,4 +15,5 @@
 * so we need to instead apply width so the width: is widht of the navbar - div
   now the ul still has problem, since it has addnl padding and margin, so we make them to 0
 
-* 
+* we can do calc(100% - 49px (div width)) ,it became narrower, but it is still inline.
+   this is due to inline-block , so we need to have a better understanding on it, otherwise it may take hours.
