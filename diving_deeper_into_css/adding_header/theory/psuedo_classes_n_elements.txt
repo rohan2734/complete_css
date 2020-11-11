@@ -1,8 +1,13 @@
 * pseudo  -> class : defines the style of a special state of an element
 * pseudo  -> element : defines the style of a specific part of an element
 
-* pseudo element example
+* pseudo element examples
 p::first-letter{
     color:red;
     font-size: 20px;
+}
+
+.main-nav__item a::after{
+    content: "(Link)";
+    color:red;
 }

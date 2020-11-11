@@ -1,0 +1,16 @@
+.box{
+  /* padding: 5px; */
+  border: 2px solid red;
+  /* margin: 5px; */
+  padding: 5px 10px 15px 10px;
+  margin: 2px 4px 6px 8px;
+  height: 300px;
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
