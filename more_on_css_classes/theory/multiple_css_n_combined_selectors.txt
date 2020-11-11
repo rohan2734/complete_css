@@ -1,0 +1,11 @@
+<div class="class1 class2"></div>
+<a href="#" class="active" />
+
+.class1{...}
+.class2{...}
+
+* both the classes apply
+
+a.active{...}
+
+* this only targets a tag, with class="active"

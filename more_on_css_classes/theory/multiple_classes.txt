@@ -1,0 +1,34 @@
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.highlighted{
+    border: 2px solid #fa923f;
+}
+
+
+<section id="intro" class="main-section  highlighted">
+  <p>This is the intro section.</p>
+</section>
+
+* here the order of the main-section and highlighted classes matters
+* when the highlighted class is coded after the main-section, then the style gets applied.
+* and when the highlighted class is coded before the main-section , then the style doesnt get applied.
+
+
+a.active{
+    
+}
+* if the space is not there b/w the a and .active, 
+* then the style gets applied to 
+
+  <a href="#intro" class="active">Intro</a>
+
+but when you write the styles with the space b/w a and .active
+
+a .active{
+    
+}
+* then this would target the elements, that has a tag or the active class but not both of them 
