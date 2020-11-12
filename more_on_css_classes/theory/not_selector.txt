@@ -1,0 +1,24 @@
+:not(p){
+  color:red
+}
+
+* here you can pass any element , you want to exclude
+* it applies the style to any element which is not a paragraph
+
+a:not(.active){
+    color:blue;
+}
+
+* here we shouldnt give space, since it would select any elements nested in the anchor tag and not the active class
+* but we want to select direclty the anchor tags which dont have the active class
+
+* instead we can also write simply 
+a{
+  color:blue
+}
+* and that would anyway overwritten by any active class with anchor tag,
+like
+a.active{
+  color:#521751;
+}
+* to avoid complexity, and to understand the code very easily 
