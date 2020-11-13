@@ -1,0 +1,5 @@
+/* every element in css, is ineterpreted as a box by css */
+/* margin collapsing, here it occurs between product-overview section and also h1 */
+/* even thought they have seperate margins, the margin is collapsed */
+
+

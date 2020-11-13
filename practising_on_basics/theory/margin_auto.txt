@@ -1,0 +1,11 @@
+.key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+* margin auto will distribute the margin equally to the left 
+  and right to center the content, horizontally but not vertically

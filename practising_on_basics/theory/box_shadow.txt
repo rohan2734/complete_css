@@ -1,0 +1,9 @@
+box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+
+the first 2px is the spread in x axis
+the second 2px is the spread in y axis
+the third 2px is the blurriness
+the fourth 2px is spread
+and the color, rgba(0,0,0,0.5);
+0.5 is the opacity, if it is 0, then it is transparent
+if it is 1, then it is opaque.

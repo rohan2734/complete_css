@@ -1,0 +1,9 @@
+.main-footer{
+  background: black;
+  color:white;
+}
+
+* the color of the content in the footer doesnt change
+* because the  anchor tags get their default color from the browser and it wont inherit
+* as we know that it is directly assigned.
+* so we need to mention it explicitly

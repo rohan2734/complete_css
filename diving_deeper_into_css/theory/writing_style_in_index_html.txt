@@ -1,0 +1,11 @@
+<!-- <style>
+        section{
+            background: #ff1b68;
+        }
+    </style> -->
+
+    <!--
+    selector applies styles to every element
+-->
+
+ <!-- <section style="background: #ff1b68;"> // inline styles-->

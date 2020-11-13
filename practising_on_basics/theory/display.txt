@@ -1,0 +1,2 @@
+ <!-- <a href="customers/index.html" style="display: block;">Customers</a> -->
+                    <!-- if  we set the display:none , it is invisible, but it is not removed from the DOM-->
