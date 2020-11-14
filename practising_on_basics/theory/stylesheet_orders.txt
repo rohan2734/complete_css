@@ -1,0 +1,5 @@
+<link rel="stylesheet" href="./shared.css">
+    <link rel="stylesheet" href="./main.css">
+
+* here the order should be in this way, 
+* since we  can have the option to overwrite the styles
