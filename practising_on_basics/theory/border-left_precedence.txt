@@ -1,0 +1,8 @@
+* here after applying the border color on the free
+* the hover effect of the package class is not able to change the color
+* since the free has the highest precedence
+
+* so we either do #free:hover,
+* or we add !important in the package:hover
+
+* it is not encouraged to use !important here,it is better to use, #free:hover

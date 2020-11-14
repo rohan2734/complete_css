@@ -1,0 +1,20 @@
+* float : means you overwride the defaukt positioning to the left or right of the page 
+* we can also take it out of the document flow
+
+
+* when we use float:right, it is moved to the right, and the below element takes its place
+* the text now floats around the element
+
+* it is not good for positioning blocks, because the text will respond to it,
+  but the other block level elements wont
+* it is great for positioning , text or images, or content
+
+* so we basically, have to keep its place, and tell the other block elements, that come after it
+  that they shouldnt repsect any previous floatings
+
+* so we add an aditional div, after the element we floated
+  so after the free plan section
+* so give a div a class , and we add one property, clear:both;
+  it means,  clear float on both sides, left and right
+  this means any elements coming after this class, will not respect 
+  previous floats.
