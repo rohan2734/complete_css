@@ -1,0 +1,29 @@
+* if we apply the style of top:100px to the parent child-1
+* we dont see any changes, because it is not 
+  different from the static or default 
+
+* if we remove the top:100px and add position:fixed, we see that it looks lik a inline element
+* and now the second element overtook the position, that the navigation bar had
+* and this happens, because, we took it out of the document flow, that means, 
+  for all the objects, this is not visible.
+* what about the width?, did we create an inline element
+* //for inline elements, changing the width has no impact
+
+* here if we add a width:400px, we see that its width is changed.
+* so we can say that we didnt create an inline element
+* but we basically have an element, which behaves as a block element actually,
+  we took the object out of the document flow and we changed the original behaviour of the object from 
+  a block level element to a inline element.
+
+* so now if we add, top:100px, its position  is changed
+
+* so if we make the margin:0, and look at it and scroll down, we see that
+  its position is the viewport.
+
+* now if we do top:0, and left:0 and width:100, we see that the border-right is out of the viewport,
+  we can solve this by box-sizing :border-box;
+
+* if we make the navigation bar, as a span now, and we change the  class to 
+  .parent span also, from .parent div, we see that, it behaves the same
+
+* so by this we can understand that, even it is inline or block , they both behave same when there are added with a position property
