@@ -1,0 +1,7 @@
+* to add the background image, 
+* we first need to create a div, and assign a class to it
+* then we need to define that class, and add background: url(""); property
+* after that, we need to add the width and height.
+
+* here our aim was to display the image as the whole background, 
+* so we added the position:fixed property

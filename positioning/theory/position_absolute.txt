@@ -1,0 +1,12 @@
+* for position:absolute
+* if none of the parnets has the posiiton property applied, 
+  then the position, of our element is simply our html element
+
+* if we have any posiiton parents, then the closest parent is the position
+  for our element. 
+
+* fixed and absolute , are similar, both take the element out of the flow of the document
+  but for the fixed value , the positioning context is always the viewport
+  but for the absolute value, the positioning context depends
+   * if we dont have any ancestors with the position proerty applied, then the positioning context is the html element
+   * if we have ancestors with the positioning element, then that element, will be positioned in relation with the closest ancestor.

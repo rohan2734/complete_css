@@ -1,0 +1,16 @@
+* by defualt, every element has a z-index of 0
+
+* and for the elements , whose position is static, 
+  there is no impact for the z-index on those elements
+
+* so as we were trying to make the background image appear below the packages,
+  as its position is fixed and is not static, we can add z-index:-1 to it
+
+* when two elements position is fixed, and the z-index is 0, 
+  then the order for z-index depends on the order of those elements in the html.
+
+* <div class="background"></div>
+    <header class="main-header">
+
+* since the header is after the background image, 
+  it is displayed after the background image 
