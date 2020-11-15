@@ -1,7 +1,9 @@
 main{
-  /* padding-top: 32px; */
-  margin-top: 64px;
+  padding-top: 32px;
+  /* margin-top: 64px; */
+  /* margin: 0; */
 }
+
 .package{
   width: 80%;
   margin: 16px 0;
