@@ -1,0 +1,5 @@
+* the z-index of the children , will only be dependent 
+  on its parent.
+* so the parents are under the z-index stack, 
+  and the z-index of the  children of one parent are independent 
+  on  other parents z-index .
