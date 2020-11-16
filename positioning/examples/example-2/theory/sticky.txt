@@ -1,0 +1,5 @@
+* when we add the position:sticky to the .parent .country
+* and if we add a top:20px, we see that , that element behaves as fixed,
+   as soon as it reaches that distance.
+* the interesting thing is, it stops behaving as fixed as soon as it reaches the end
+  of the content of the parent element.

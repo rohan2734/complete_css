@@ -1,0 +1,15 @@
+.parent .child-1{
+  left: 0px;
+  top:0px;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  box-sizing :border-box;
+}
+ .parent span {
+    background: rgb(105, 105, 109);
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+}

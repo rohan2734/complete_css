@@ -1,0 +1,23 @@
+* when we select the .parent .child-1,and add the relative property to it,
+  but nothing is changed.
+* in the case of the position:absolute and fixed, we see that the element is
+  taken out of the document flow, and then its position in context depends on its
+  ancestors
+* but in the case of position:relative, it is not taken out of the document flow
+  and if we add top:50px, and left:50px, it is moved from its position to top:50px and left:50px,
+  because , the position in context is the element itself.
+
+* with the position property, we cannot cross change the position in context  of other elements,
+  so of children of these elements.
+
+* now if we change the top:300px, it is still visible , but it is below its parent div.
+  so if we add the overflow:hidden to the parent
+
+* let us now comment the parent child 1 , style and also the parent div changes
+* and let us make it relative, and add some top:200px
+* now if we add overflow:hidden, to the body, nothing changes.
+* because, the bodys overflow:hidden is moved to the html, by the css, by default, and we cant change it,
+* but one thing which we can do is, we can add the overflow:hidden to both the html, and the body
+* it will also work, if we add overflow:auto;
+* we will only have this problem, if our parent is the body, otherwise we wont have this issue.
+
