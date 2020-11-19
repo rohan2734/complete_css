@@ -1,0 +1,31 @@
+* when we have set a background-position:20px, 
+  we see that the image is moved to the right 20px .
+* the first value is the x-axis, it defines that 
+  how the left edge should be positioned to the left edge of the parent
+* if we set another value  , it is the y-axis, it defines that
+  how the top edge should be positioned to the top edge of the parent.
+* we can also  set a percentage value, but when we reload , there is no widespace
+* by percentage , we can define , how much of the excess space 
+  ( the parts of the image, that doesnt make into the container ) how these parts 
+   should be distributed.
+* now regarding the width, the full width of the imagae is displayed,
+   it is not cropped.
+* now if we set the background-position:0%, which means the lef part of the excess space
+  is perfectly aligned to the container.
+* we can also set the top,background-position:0% 10%,this means, the 10% of the excess space
+  should go over the top.
+* if we reload, the image, begin pushed down, the default is 50%, 
+  we get the same result, as if we have not mentioned it.
+* 50% means off the parts of the image, that doesnt fit to the container,
+  50% will be cropped at the bottom, and 50% will be cropped at the top.
+* if we have set 0% 10%, which means 10% is cropped at the top, and 90% is cropped at the bottom.
+  so the image will be pushed down.
+* if we have set 0% 100%, all the extra space will be cropped at the top, and nothing will be cropped at the bottom,
+  this results, in pushing up the image, and bottom edge, will be perfectly aligned to the 
+  bottom edge of the parent.
+* if we have set, background-position: center 50% 50%; 50% of the top and bottom, and 50% of the left and right
+  is cropped , so that the center of the image, is the center of the container.
+* we can also set to background-position: left top;, this means the left part of the image is perfectly aligned to the container,
+  and the top is also perfectly aligned , so no cropping at the left and top.
+* we can also set to background-position: left top; , then bottom is perfectly aligned, and the top is cropped.
+* we can also set to background-position: left  40% bottom 40%;, then 40% of the bottom and 40% of the left is cropped,

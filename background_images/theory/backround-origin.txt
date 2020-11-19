@@ -1,0 +1,15 @@
+* if we add a dashed border of 5px, (before the background-origin added)
+* we see that , the left and right is in the container( acc to lec, ours top and bottom is filled in container)
+* but we see the top and bottom is not filled.
+* so if we add a background-origin :border-box, the problem is solved.
+* by default the container  is not the border-bpx, and therefore
+  we have the white space.
+* if we try, content-box, we see some padding, on right and left.
+* so default is padding-box, this means, the container including the content and padding, but not border.
+* since the croping wasnt effective with  background origin, we add background-clip
+* if we set the background-clip: border-box;, we got the same behaviour as before,
+* if we set the  background-clip: padding-box;so now we see the border is empty, so no image beneath the top and bottom.
+* so with the background-clip, we define where the image should be clipped, and now it is clipped after the  padding.
+* we can also set it to content , to set to before the padding, we get some space around it.
+* it also overrides background-origin, 
+* background-attachment: ;tells whether the image should be moving according to the content of the container

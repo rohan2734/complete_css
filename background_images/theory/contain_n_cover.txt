@@ -1,0 +1,10 @@
+* with auto 100%, on the background-image, 
+  it will keep the aspect-ratio. background-size: auto 100%; /*width heigth */
+* but when we keep the background-image: 100% auto, the image will be cropped, 
+  and we can also control the crop.
+* cover is a setting, that ensures it will always fill the container.
+* even if the image size is small, it will zoom in.
+* an alternative is contain. it will ensure it to not to crop the image.
+* with contain, the image will not ensure that the container is filled,
+  but it ensures that the entire image is visible, unlike the cover.
+  
