@@ -1,0 +1,35 @@
+* when we add a uhost-icon-image, in the place of the name as the logo,
+* we see the logo is too big, 
+*  
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    height: 22px;
+}
+
+* in shared.css, we can think that, height:22px, will solve the issue,
+* but here the main-header__brand is the container
+<a href="index.html" class="main-header__brand">
+    <!-- uHost -->
+    <img src="./images/uhost-icon.png" alt="uHost-Your favorite hosting company"/>
+</a>
+* if it was the image, then it would be set properly
+* by setting the height of the container,the image will not be affected ,
+  because the default  behaviour .
+* the default behaviour is, if u enter an img tag , and we point to an image,
+  thent the default height n width of the image will  be used in the document,
+  no matter how much width and height u set for the surrouding element.
+*  if we inspect, the anchor tag is much smaller than that, but the image doesnt care.
+
+* now the only solution is to , write the css style for the image,
+  now we can set a height:22px, but what if we do height:100%, it doesnt work.
+* height:100%, will again lead us to its original height, not the height defined by the container.
+* so should now set the final height of the image , we want to set here.
+
+* so when we add, a width:100%, here we dont see any changes, so percentage values doesnt help 
+  us in fitting it to the container,
+* because the reason for that ,is our container is a inline element itself.
+* if we set it to inline -block instead, not the image respects the container.
+* so while setting the style of the images, it is important if it is contained in a inline-block , or block or an inline element.
