@@ -1,0 +1,12 @@
+* in the image_container, if we want to set its width:80%, then it needs to have display:inline-block
+* and also the image , would have the width:100%, also
+
+* now , we see that the image and the div are not vertically aligned because,
+  we have vertical-align:middle on testimonial_info but not on image_container,
+* so if we add vertical-align:middle on the image_container also it would also be aligned vertically
+
+* if we add a  box-shadow on the container, and we reload, 
+* we see that there is a white edge below, that we can get rid by
+  adding vertical-align:middle or top or anything on the testimonial_image
+* or alternative would be display:block, 
+

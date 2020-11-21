@@ -1,0 +1,13 @@
+* the first important thing,
+   is linear and raidal gradient are treated as images
+* the first argument is direction, we can omit it,then we can assign colors
+* the default is top to bottom, 
+ background-image: linear-gradient( to bottom,red,blue);
+* we can also mention , to left bottom, then it would be diagonal
+* we can also mention, as 30deg
+* we can also add multiple colors to the linear gradient
+* background-image: linear-gradient( 180deg ,red,blue,green,yellow,orange);
+* we can also add transparent as the argument for color
+* we can also add a rgba as the argmuent for color background-image: linear-gradient( 180deg ,red,rgba(0,0,0,0.5)); 
+* here by default, the gradient divides the colors equally, where as we can also set important
+*  background-image: linear-gradient( 180deg ,red 50%,rgba(0,0,0,0.5));
