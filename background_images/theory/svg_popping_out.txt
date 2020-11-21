@@ -1,0 +1,2 @@
+* when we add svgs, they pop out, instead of fitting inside,so we add pading:20px to the 
+ .key-feature__image class

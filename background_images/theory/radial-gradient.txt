@@ -1,0 +1,14 @@
+* with raidal gradient, , if the args for the color are red and blue,
+  then it starts with red, and moves raidally to blue, and it is not a circle, it is an ellipse
+* we can also change the shape, at the first arg
+  background-image: radial-gradient(circle,red,blue);
+* by default, the circle starts at center, but u can also change the position to top,
+  background-image: radial-gradient(circle at top,red,blue);
+* we can also enter cusomt values, like 20% 50%, then it is moved , 20% from the left, and 50% from the top
+    background-image: radial-gradient(circle at 20% 50%,red,blue);
+* we can also define the size by adding 20px after the circle,
+    background-image: radial-gradient(circle 20px at 20% 50%,red,blue);
+* this means that the red has the total diameter of 20px, 
+  but if the shape is eclipse,we need to add two radii
+* we can also add key-words like farthest-side,closest-side,closest-corner,farthest-corner,
+ we can also add percentages to the colors as in to the linear gradient
