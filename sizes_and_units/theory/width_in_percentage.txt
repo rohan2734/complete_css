@@ -1,0 +1,3 @@
+* if we have an element with position :fixed declaration applied
+* and a percentage unit applied, then the containing block is
+  the viewport.

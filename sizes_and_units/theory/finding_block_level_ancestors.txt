@@ -1,0 +1,3 @@
+* the testimonial_image-container  finds for a closes ancestor 
+  which is a block level element, and thats its width is set as per 
+  the .testimonial div.
