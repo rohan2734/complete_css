@@ -1,0 +1,17 @@
+* if we change the font size in the google chrome settings to very large
+* we see that , the navbar font size increases, but the font for the text beside the images
+  stays the same.since our font size is 20px.
+* when we see the testimonial__info, the font size is 20px, 
+  but when we see the h1, the font-size is not 20px, it is 2em
+* now if we go to computed tab. and we go down, we can see  
+  the font-size is 40px, and 20px is striked off
+* for h2,tag, we applied font-size of 18px, if we untick that , then we can see
+  that font-size is 1.5 em, an dif we again go to computed
+  now we have 30px, again it is 20px X 1.5, 30px, so basically
+  em is multiplied with the font which is inherited.
+* for p, we had font-size :20px, and even if we change the font size in the settings,
+  these doesnt change, but it should .
+
+* here we can face issues , with em values because of inheritance, but to avoid that confusion with inheritancea nd multiplication
+  we can use rem, it is just the value multiplied with font-size of browser.
+* 
