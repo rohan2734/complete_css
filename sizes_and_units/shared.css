@@ -11,11 +11,11 @@ body {
 }
 .backdrop{
     position: fixed;
-    /* display: none; */
+    display: none;
     top:0;
     left: 0;
     z-index: 100;
-    width: 80vmin;
+    width: 100vh;
     height: 50vh;
     background-color: rgba(0, 0, 0, 0.5);
 }

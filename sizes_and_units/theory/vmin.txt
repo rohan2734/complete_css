@@ -1,0 +1,10 @@
+* when we add the vmin, now our width becomes smaller
+* and the reason for this is , vmin takes simple 80% of the smaller viewport
+* now if we increase, the size by moving the console, now it doesnt increase
+* because now the smaller viewport is height, height is samller than width
+
+
+* we can increase the viewport size, and the backdrop width doesnt increase, since it will always take 80% of smaller viewport
+* now but if we reduce, that, at point where height and width of the viewport are equal
+* now it chunks to take 80% of the viewport width.
+
