@@ -1,0 +1,4 @@
+the z - index of the model shoul dbe highter than the z-index of the backdrop
+
+because the backdrop should be infront of the content 
+but the modal should be infront of the backdrop
