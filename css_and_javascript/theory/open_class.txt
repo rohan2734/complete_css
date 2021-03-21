@@ -1,0 +1,17 @@
+if we click choose plan, we still have the backdrop ,but the modal doesnt open
+because  open class is added, but it is overwritten by modal class
+
+reason  is
+we have open class in shared.css
+
+modal in main.css  
+which we have imported after the shared.css 
+
+this overwrites any specifity that we defiend earlier like open class
+
+we can add important here
+because this really a class when it must take absolute prioity
+
+otherwise we would repositonn modal class infrotn of open class
+buthis approach is ok too
+
