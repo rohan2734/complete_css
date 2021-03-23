@@ -1,0 +1,13 @@
+think of media queries,just like  if conditions
+
+@media ()
+
+all our code outside the media queries is our mobile code
+(the code that specifies the look of our website on mobile devices)
+
+if u r going to design websites for website devices, and media quries for mobile devices, then we use  max-width
+
+we can also have mulitple media queries
+
+if there are 2 media queries, the second one overwrites the first one, due to the css nature
+
