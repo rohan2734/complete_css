@@ -1,0 +1,5 @@
+* for finding the correct min width value:
+* inspect the plan
+* go to computed
+* adjust the widht where u think it should be small at max
+* and then note down the width and assign it to the min width 

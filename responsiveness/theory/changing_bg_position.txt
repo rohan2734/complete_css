@@ -1,0 +1,2 @@
+* we have changed the bg position from left 10% bottom 70% to center
+

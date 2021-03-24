@@ -1,0 +1,7 @@
+* we have changed the display from "inline-block" to block
+and also changed the width to 100%
+* we also changed the width of the plan list to 100% and  we also removed the margin auto
+
+* since the ele,emts are already vertical, they dont need any vertical align
+
+* we dont need planlist, ( a wrapping container) for mobile first
