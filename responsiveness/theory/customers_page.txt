@@ -1,0 +1,5 @@
+for customers page
+if we want responsiveness
+we have changed the display :inline-block to block 
+and for making it in the center
+we have add margin:auto

@@ -1,0 +1,60 @@
+element with atttribute:
+
+[type]{
+    color:red;
+}
+<input type="text" />
+
+
+Element with specific atttribute value 
+[type="email"]{
+    color:red;
+}
+<input type="email" />
+(only email )
+
+Element with specific atttribute value in list 
+[lang~="en-us"]{
+    color:red;
+}
+<p lang="en-us en-gb ">hi!</p>
+(~ it would match a paragraph that has a lang attrubute that has more than one value )
+(any element, which has atleast en-us)
+
+element with specific atttribute value/value- 
+[lang|="en"]{
+    color:red;
+}
+<p lang="en-us">Hi!</p> ( prefix )
+(element with specific atttribute value or this atttribute value as  prefix)
+(| = pipe symbol )
+
+element with specific attribute value prefix
+[href^="#"]{
+    color:red;
+}
+<a href="#all" >link </a> 
+
+
+Element with specific attribute value suffix
+[href$=".de"]{
+    color:red;
+}
+<a href="ab.de"> link </a>
+
+element with atleast one attribute value 
+[src*="cdn"]{
+    color:red;
+}
+
+<img src="i.cdn.com">
+
+[src*="cdn" i]{
+    color:red
+}
+<img src="i.CDN.com">
+(not case sensitive, when you add i )
+
+
+
+
