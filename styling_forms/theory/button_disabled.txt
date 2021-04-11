@@ -1,0 +1,6 @@
+any element with button class that also has a disabled attribute 
+
+if ther e is a blank , then that targets all the elements with disabled that are nested inside of the button 
+since we dont have such type of targets 
+
+we use without space 

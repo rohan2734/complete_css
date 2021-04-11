@@ -1,0 +1,3 @@
+* not will select all the tags or classes , except the condition in the not
+* not([type=checkbox])
+*  will target every class except checkbox 

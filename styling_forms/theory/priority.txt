@@ -1,0 +1,2 @@
+add the input invalid, property at the last of the input styles, since we need to override it 
+

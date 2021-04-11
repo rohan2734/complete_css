@@ -1,0 +1,2 @@
+* it is not a border,but it is kind of a border
+* here it doesnt cover the border or box shadow, it is outside of the border

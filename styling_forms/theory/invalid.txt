@@ -1,0 +1,3 @@
+* in the case of invalid , we are overriding the background color ,
+but the border color is not being orverrident due to not property 
+so we add important to border color 
