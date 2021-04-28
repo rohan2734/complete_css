@@ -1,0 +1,7 @@
+* font stack
+  is used to check the fonts present in your local machine  
+* website font only include limited amount of font families
+
+
+* go to google fonts , copy the font family link 
+* now paste it in the head of the packages/index.html and not in index.html of main 

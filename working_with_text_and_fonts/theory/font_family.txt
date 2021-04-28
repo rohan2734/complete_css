@@ -1,0 +1,8 @@
+* if we dont add the fontfamily property to our code in the website, then the default browser settings is the one that defines 
+* the disadvantage is , fontfamily totally depends on user settings , we dont have any contorl on font family on our website 
+
+* quotation marks are not necessary,it will still work 
+* sans-serif is a generic family 
+* the general pattern is, we start with most specific font family , or two or more families
+ * "montserrat " , "verdana" , sans-serif
+* browser will look for "montserrat" , if we cant find we will move to next family, "verdana" , and so on so on, and at last it may fall back to sans-serif 
