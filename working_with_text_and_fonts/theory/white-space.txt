@@ -1,0 +1,6 @@
+* white-space : nowrap , it makes the entire text to be visible on one line 
+* whitespace : pre, if we go back to our code and if we add a new line break by hitting on the enter, after
+  project, then after that we see that we will have a paragraph 
+* pre-wrap : we can see that project in one line, and after that  started with a new line, since we added a enter
+* pre-line : we can see that lines are filled whenever possible ,
+   but it keeps the line break on project 

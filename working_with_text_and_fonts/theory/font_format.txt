@@ -1,0 +1,17 @@
+format("truetype")
+this is a optional information, it gives additional information about our font format
+
+* can i  use.com 
+if it is compressed format, it will make the website faster. 
+fonts can become quite big, so compression and loading times is imporant when using these customised font faces 
+
+* we have a better compression for woff 
+
+we can add multiple url by 
+
+@font-face {
+  font-family: "AnonymousPro"; /* custom font */
+  src: url("../theory/Roboto_font_family/Roboto-Regular.ttf") format("truetype"),
+    url("../theory/Roboto_font_family/Roboto-Regular.woff") format("woff"),
+    url("../theory/Roboto_font_family/Roboto-Regular.woff2") format("woff2");
+}

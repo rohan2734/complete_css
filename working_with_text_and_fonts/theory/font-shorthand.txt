@@ -1,0 +1,12 @@
+* font-weight must be written before font size 
+* font-weight also is written before font size , it is important 
+* font-style is also written before font size
+* line-height is added after font-size 
+* font-family is the last value we specify
+* line-height is added as font-size/line-height as 1.2rem/2 
+
+font: status-bar;
+
+* the font shorthand doesnt apply when we just write as font:1.2 rem
+we need atleast font-weight and font-family 
+* os we need to write font-size:1.2rem

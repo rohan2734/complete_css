@@ -4,5 +4,17 @@
 * quotation marks are not necessary,it will still work 
 * sans-serif is a generic family 
 * the general pattern is, we start with most specific font family , or two or more families
- * "montserrat " , "verdana" , sans-serif
+ * "montserrat" , "verdana" , sans-serif
 * browser will look for "montserrat" , if we cant find we will move to next family, "verdana" , and so on so on, and at last it may fall back to sans-serif 
+
+* if we had the link,we had to add it in each html file we had ,otherwise the font is not available 
+* so this can cause errors
+* so the alternative is , @import , this allows us to import the font in the css file, by using it 
+* now add the @Import in shared.css file 
+* just add @import part in shared.css and remove the fonts link in the index.html etc
+
+ /* font-family: "Roboto", sans-serif; */
+  /* font-family: "AnonymousPro", sans-serif;
+  font-weight: 500;
+  font-style: italic; */
+  /* line-height: 2; */

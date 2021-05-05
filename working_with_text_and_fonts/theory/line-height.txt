@@ -1,0 +1,10 @@
+* line-height doesnt consider decimals 
+* so ,19px is very close to 19.2 px (font size)
+
+* if we increase the line-height to 2 , height becomes 38.4, so it becomes 38
+* line-height to normal .then we have line-height is 24
+
+* line-height depends on the font we are using , we can also use px, or percentage 
+* if we use %, as 200%, then 200% of font size 
+* percentage is not good , since it leads to unexpected behaviour due to inheritance
+

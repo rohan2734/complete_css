@@ -1,0 +1,28 @@
+* custom fonts ,that we imported by at font-face 
+* font display is a property,we can apply different values which impact the loading behavour of the custom fonts 
+* we have different values like ,swap , block ,fallback ,optional  ->if we dont set anyhting it will be set to auto 
+* 2 different situations while the loading process of the font takes place 
+for swap value we dont have any block period 
+* block-period : user is visitng the website , content has to load, as fonts cannt be displayed immediately, the sapce where our text 
+  will be displayed, and it will be received by flalback font, it will not be received initially, but the sapce will be reserved 
+  we dont have the styling, we will have the general strucutre, and we wont have text 
+
+* swap -period -:where browser has ability to swap the fallback fonts 
+ this period is infinite ,if our browswer manages to load our custom font , then it would swap the fall back ,
+    if it cannot change ,fallback would just stay there 
+
+* block : block-period 
+  inviisble font is loaded, we dont have any text but we have reserved space  ,after that the behaviour is reload the fallback, 
+   and once again load the custom font that we created 
+
+* fallback has very short block-period ,we have this invisible font family displaved only for a minimal amoutn of time, then we have fallback 
+  then we have a very shot period of time to change the fallback font and swap wth custom font, if browser can do the swapping  in the short time
+  then it will change to custom font, else it will use the fallback 
+
+* optional , it iwll have very short blockperiod, we dont have swap period, becasue it allows the browser to choose the custom font or fallback 
+ if the browser has good internet it uses custom font, or it uses fallback 
+  and it cannot be received 
+
+* auto:
+ if we dont set font-display, auto wil be applied 
+ 
