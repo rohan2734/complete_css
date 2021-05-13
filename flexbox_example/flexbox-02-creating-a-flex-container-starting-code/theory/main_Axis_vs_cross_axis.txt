@@ -1,0 +1,40 @@
+Main axis vs cross axis:
+
+main axis is from top left to top right 
+corss axis goes from top left to bottom left 
+
+flex-diretion : row (main axis and left to right)
+
+flex-diretion: row-reverse
+
+it starts from right top corner to left top corner 
+
+and cross goes from right top corner to bottom corner 
+
+* flex-wrap:wrap 
+if we  decrease the width, it wraps  along the cross axis 
+first flex is still on the top left corner 
+
+now if we change the flex diretion to row reverse 
+* now starting point is top right corner, and when we decrease the width , they are aligned along cross axis 
+
+* flex-direction:column
+ the main axis is from top to bottom 
+ and thecross axis is from left to right 
+
+
+* flex direction mainly decoeds if the main axis is from left to right or top to bottom 
+
+* flex direction column-reverse is from bottom to top, or from left lower corner to right 
+
+if flex -direction row , then the starting point is left top corener and row defines the main axis 
+
+if flex-direction is row reverse,starting point is right top  corner ,main axis is row 
+
+if flex-direction is column, starting point is top left corner, but main direciton is from top lef tto bottom 
+
+and if flex direciton is column reverse, starting poing is bottom left corner, and main axis is column 
+
+ if we use flex direciton as column 
+ the items are aligned on main axis, that is from top to bottom 
+

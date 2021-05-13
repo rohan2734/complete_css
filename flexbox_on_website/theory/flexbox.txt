@@ -1,0 +1,18 @@
+we are going to remove the display:inline-block 
+in all the css of shared.css 
+also the calc of width of main nav 
+and should be replaced with flex box solution 
+
+sincew we want to convert the main header to flex ,so 
+1. we add display:flex
+we added display flex, so default is row 
+here we can see that , we need to make the items get aligned 
+so main axis is left to right ,cross axis is top to bottom 
+
+main header is also part of the flex container ,so we should remove the display:inline-block 
+
+the flex doesnt applied to nested items, so we are adding vertical align again
+
+1.we turned main header to flex container
+2. we turned into flex items
+3. we are able to get rid of flex items 

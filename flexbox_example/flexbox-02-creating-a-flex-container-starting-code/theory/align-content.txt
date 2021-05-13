@@ -1,0 +1,5 @@
+it is a combination of align-items and justify-content 
+
+it allows us to align the content on cross axis 
+
+we can also add flex-start

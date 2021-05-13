@@ -1,0 +1,20 @@
+flex-direction: row;
+flex-wrap: nowrap;
+
+when we cahnge nowarp to wrap 
+the height is changed and the last element enters new line
+
+we also have wrap-reverse, the order is just reversed 
+
+flex -direction : column , it is the same as our block elements behave 
+
+ our elements have a specified width,only display upto which we defined
+
+ when we drag the console towards,the lemeents are not displayed below the value 
+ 
+ we can see that, few divs which dont have any width , reudce the size even below the point, at which it requires
+
+ we also have column reverse 
+ we also have row reverse 
+
+ 

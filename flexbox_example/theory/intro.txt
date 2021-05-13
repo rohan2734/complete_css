@@ -1,0 +1,15 @@
+* flexbox is the modern way to change the way our elements are displayed
+
+flex-container 
+main axis vs cross axis 
+the flex items 
+
+- inline block is the nice way to change the posiiton of elements 
+ but flex box can make things like that easier
+
+- if we check navigation , in main nav,the width of it as calculation with pixels
+  
+- we would like to remove the display inline block declaration and replace with flex box
+
+- the right  plan is smaller  , than left plan , so to correct this we are making flex box
+

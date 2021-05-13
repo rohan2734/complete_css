@@ -1,0 +1,10 @@
+* parent = flex container
+- display:flex  
+* children = flex items 
+
+we can apply flex-flow, justify content, align content,align items for parent 
+
+we can apply order, flex ,align-self , for children
+
+
+

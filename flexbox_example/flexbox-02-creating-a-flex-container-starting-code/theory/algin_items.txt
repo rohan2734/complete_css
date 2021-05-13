@@ -1,0 +1,29 @@
+height will always follow the max height 
+align-items:stretch 
+
+align-tems:center
+
+it simply centers the items along the axis 
+
+we can also name it as flex-start 
+then we can see that, the items are now centered on the beginning ,of our cross axis 
+it is from top left to top right
+
+align items always refers to cross axis 
+
+what about main axis ?
+we can also define the position for main axis or combination also 
+
+justify-content:center makes the content centred along main axis 
+align items:center makes the content centred along cross axis 
+
+flex-direciton:row 
+we had main axis from top left corner to top right corner 
+cross axis went from top left to bottom left 
+then we added justify -content ,it defines the positon of flex eleements along main axis 
+align items defines the position of flex eleements at cross axis 
+
+
+align-items: baseline
+
+makes the x and h at same line 

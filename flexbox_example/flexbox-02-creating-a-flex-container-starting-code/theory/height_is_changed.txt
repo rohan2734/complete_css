@@ -1,0 +1,12 @@
+* when we use display :flex ,  the flex items, height is automatically 
+  adjusted to the maximum height, among the flex items , i.e h=350px
+* but the element h=250 px, the height is not changed to 350 px
+* width of the messages decareases upto the pooint where content leaves the space inside the element
+* if we increase the space ,of the parent element , the children elements change only upto its width
+
+* we also turned the flex container into flex container whenwe dragged the console towards left,
+ when we drag towards right, it will behave like normal block level element.
+
+* with display = inline-flex we cannot change the size of the elements
+ because the size is actually predefined by the actual width that is defined
+* and parent also doesnt increase its size, it only occupies how much it is required 
