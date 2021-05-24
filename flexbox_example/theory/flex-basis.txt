@@ -1,0 +1,16 @@
+* flex-basis defines the size of an element  
+* depending on the main axis 
+* flex -basis is not the width or hright
+* it can be both, it is simply dependent on the flex-direction , main aixs 
+
+* size of the element depending on the main axis 
+* flex-basis will override the default width property, 
+* if it is auto, then it will apply the width 
+
+* if flexdirection is column, then flex-basis looks on height, if flex-direction is row , then flex-basis looks on width
+
+*important :
+flex basis is always dependent on main axis 
+if flexbasis is auto, then it will select height or width depending on main axis 
+
+these properties can be applied to items of flex only 

@@ -1,0 +1,8 @@
+ /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: row wrap; */
+  /* align-items: flex-end; */
+  /* display: inline-flex; */
+  /* flex-direction: column-reverse;
+   */
+   align-content: space-between;

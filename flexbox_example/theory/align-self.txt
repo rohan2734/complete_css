@@ -1,0 +1,7 @@
+when we add align-self :flex-start 
+we can see that the element is aligned on the starting of the cross axis 
+
+flex-end, it will be on the end of the cross axis 
+
+it allows us to define the position of the single element in flex-container 
+

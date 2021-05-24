@@ -20,17 +20,9 @@ body {
   border: 5px solid black;
   display: flex;
   height: 1500px;
-  /* display: inline-flex; */
-  /* flex-direction: column-reverse;
-   */
   flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* flex-wrap: wrap-reverse; */
-  /* flex-flow: row wrap; */
-  /* align-items: flex-end; */
   align-items: center;
-  justify-content: center;
-  align-content: space-between;
+  justify-content: flex-start;
 }
 
 .item-1 {
@@ -58,6 +50,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   height: 250px;
+  align-self: unset;
 }
 
 .item-4 {
@@ -68,6 +61,7 @@ body {
   margin: 10px;
   width: 300px;
   height: 300px;
+  /* order: -1; */
 }
 
 .item-5 {
@@ -77,6 +71,11 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 350px;
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+  /* height: 200px; */
+  /* flex-basis: 10%; */
+  flex: 0 1 auto;
 }
 
 .item-6 {
@@ -86,4 +85,7 @@ body {
   border: 5px solid black;
   margin: 10px;
   width: 350px;
+  /* flex-shrink: 4; */
+  /* order: -2; */
+  /* flex-grow: 4; */
 }

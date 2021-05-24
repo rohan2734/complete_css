@@ -1,0 +1,9 @@
+* it defines the behaviour our elements have , once we decrease the width 
+
+* if we add flex-shrink:0 , then this item will not become smaller than its width it has 
+
+* if we add flex-shrink:1, and flex-shringk:4
+
+* out last item is decreased 4 times more than the first item
+
+* default value is 1

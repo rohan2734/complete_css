@@ -1,0 +1,14 @@
+flex-grow: 0
+its initial value is 0
+
+the element who got flex-grow:1
+occupies the space 
+
+the remaining space is divided into 5 (flex-grow:1 , for element 4, and flex-grow:4 for element 6)
+
+so 1/5tth will be applied to first element 
+and 4/5th will be applied to last element 
+
+if we add a flexrwp : to wrap 
+then last element will go the the second line 
+and it would occupy the whole space 

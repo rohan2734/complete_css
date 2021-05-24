@@ -1,0 +1,15 @@
+* if we want the 4th element as the first element 
+then we can add the order property to the 4th element 
+as order:1
+
+it can have diffrernt values, default property is 0
+
+when we added, +1 . it has gone to the end 
+
+if we cahnge to -1 then we can position it to the front of the elements 
+
+the bigger we add , the later it will be shown 
+
+if we add order :-2 to the last element, then it will become the first element 
+
+if we now change the flex-direction : row-reverse, then this will also change the order accordingly 
