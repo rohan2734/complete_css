@@ -1,0 +1,7 @@
+fixed and absolute elements are not part of the grid 
+hence are not considered as rows
+
+so since header posiiton is fixed, it is out of the grid,
+and only main area and footer ,
+is part of the grid 
+

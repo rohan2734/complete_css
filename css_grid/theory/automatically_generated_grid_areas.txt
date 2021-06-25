@@ -1,0 +1,5 @@
+* creating automatically generated grid areas 
+* start with 
+grid-template-columns : hd-start and hd-end
+
+then you can use grid-area: hd
