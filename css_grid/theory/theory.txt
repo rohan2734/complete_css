@@ -1,0 +1,24 @@
+css grid : 
+we could think of this page as rows and columns 
+using grid to position the elements 
+positioning the elements becomes easier 
+
+positioning elements on the page, in the place where
+you want to have, is one of the complex features in css 
+
+css grid helps us witht that
+it allows to define the grid of rows and columns, and then specify
+which element should be positioned where 
+
+it is also flexible 
+
+default settings for a grid is 
+- it will create one column , 
+- and as many rows as we have child elements 
+
+1fr - split the reamining space , 100%-20%- 200px -150px 
+it will take the reamining space 
+and if we had more tha one column with fraction unit, it will split the  
+remaining space with  all the columns which have fraction units.
+
+

@@ -1,0 +1,12 @@
+instead of repeating the columns width 
+
+we can use 
+grid-template-column : repeat(4,25%)
+now we create 4 columns with 25%
+
+grid-template-rows : we have minimum and maximum height 
+5rem minmax(10px ,200px)
+first value takes min (as hieght)
+and second value is maximum 
+
+minmax also ensures that the grid has minimum value,and max value 

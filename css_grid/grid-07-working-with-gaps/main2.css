@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+}
+body{
+    display: grid;
+    height: 100%;
+    grid-template-columns: [col-1-start] 1fr [col-1-end col-2-start] 3fr [col-2-end];/*2 columns, for sidebar and main content*/
+    grid-template-rows: 4.5rem auto 4.5rem; 
+    grid-template-areas: "header header"
+                         "aside main"
+                         "footer footer"
+    ;
+}
+header{
+    background: blue;
+    color:white;
+    /* grid-column-start:col-1-start;
+    grid-column-end: col-2-end; */
+    grid-area: header;
+}
+main{
+    background: red;
+    color:white;
+    /* grid-column-start: col-2-start; */
+    grid-area: main;
+}
+
+aside{
+    background: green;
+    color:white;
+    /* grid-column-start: col-1-start;
+    grid-row-start:2; */
+    grid-area:aside;
+}
+footer{
+    background:purple;
+    color:white;
+    /* grid-column-start: col-1-start;
+    grid-column-end: span 2; */
+    grid-area:footer;
+}
+
+/*check if the body has grid or not , in inspect->layout*/
+/* auto is the default height of the rows*/
+

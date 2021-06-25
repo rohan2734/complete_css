@@ -1,0 +1,21 @@
+grid-column-start:1;
+grid-column-end:-1
+
+can summarise to 
+grid-column:1 / -1
+
+it replaces the longer version
+
+grid-row : row-2-start / span 1
+
+
+you can also summarise the whole values with grid-area 
+
+grid-area : 
+
+it has clearly defined order of values 
+1.grid-row-start / grid-column-start 
+2.row end/ column-end
+
+
+row-1-start / 2 / span 1 / span 3

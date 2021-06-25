@@ -1,0 +1,14 @@
+if we have auto in grid-template-rows
+then it only has the height to fit in the content 
+
+
+* if we change it for grid-template-column, so it
+ takes space just required to just as big it needs to be 
+
+* same would be true for rows  
+* if we add a height :600 to the contianer, then auto fills that up
+
+if we remove auto in grid0template -row, container has its width, but the rows dont fill it
+
+sometimes we dont have four columns with equal size 
+ 

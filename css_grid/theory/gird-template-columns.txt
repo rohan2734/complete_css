@@ -1,0 +1,11 @@
+if we add 
+grid-template-columns : it allows us to  override of only having one column 
+and to add mulitple columns to the grid 
+
+how do we add columns :
+we can set the width of the columns 
+200px 150px 20%
+
+200px for first column
+150px for second column
+20% for 3 rd column of grid container

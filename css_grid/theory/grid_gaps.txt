@@ -1,0 +1,9 @@
+here if we add a margin:10x to el3 
+there is a gap 
+but gap is b/w el 3 and not between the lines of the grid 
+
+
+so we use grid-column-gap : 10px
+
+we can also add the gap for rows as 
+grid-row-gap:10px

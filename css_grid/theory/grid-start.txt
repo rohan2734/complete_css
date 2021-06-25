@@ -1,0 +1,9 @@
+* if we want element 3 and 4 to be in  third column and second row 
+* then we add grid-column-start:3 
+* and we can also add end 
+(by default it is 1)
+so we can make it
+grid-column-end:5 
+
+now the element no.4 place is taken  by element 3
+and element 4 started on next row

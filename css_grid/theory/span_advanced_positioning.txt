@@ -1,0 +1,11 @@
+instead of grid-column-start :3
+aand grid-column-end:5
+
+we can do span 2
+
+elemeents can override if we explicily set 
+grid-row-start and end 
+but grid will avoid it
+
+the order is dependent on dom order 
+
