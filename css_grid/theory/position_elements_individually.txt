@@ -1,0 +1,9 @@
+position one element in one way that differs from other elemenets
+
+all the elements are set to stretch in X and Y axis 
+if we wanted to set element2 to be centred both horizontally and vertically
+in its box
+
+justify-self aligns in the x axis 
+and align-self aligns in the y axis 
+

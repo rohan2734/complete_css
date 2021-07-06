@@ -1,0 +1,7 @@
+* default size of row is auto
+* right now new content is autmatically kept in a new row 
+
+* you can tell the grid, to not to add the new items as rows but as columns
+
+grid-auto-flow
+

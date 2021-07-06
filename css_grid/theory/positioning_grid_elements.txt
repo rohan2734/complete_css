@@ -1,0 +1,9 @@
+* it positions the grid elements in their center of their  grid tracks
+when given justify-items:center  
+* default is justify-items: stretch
+it is for aliging in rows 
+
+align -items can align in columns 
+align-items:center aligns in center of the columns 
+default is also stretch , we can also use start
+

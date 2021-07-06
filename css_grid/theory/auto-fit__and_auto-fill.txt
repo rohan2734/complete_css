@@ -1,0 +1,12 @@
+auto-fill 
+it will ensure that it fills the current row with 
+as many elements as possible 
+
+it will make the grid dynamic 
+
+if we want to restrict the maximum amount items in a row 
+then we can assign max width to container 
+
+auto-fit you can use when you have less items 
+
+it allows you to use the space in best possible way

@@ -1,0 +1,4 @@
+implicit grid is size which you define 
+
+and explicit grid is which grid adds automatically
+

@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  /* grid-template-rows: ; */
+  justify-content: center;
+  grid-template-columns: repeat(3, 10rem);
+  grid-template-rows: 20rem; /*first size element will become 20rem*/
+  grid-gap: 2rem;
+  margin: 1rem;
+  grid-auto-rows: minmax(8rem, auto);
+  grid-auto-flow: row dense; /* default is row*/
+  grid-auto-columns: minmax(8rem, auto);
+}
+.quote {
+  background: rgb(255, 192, 119);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.quote:nth-of-type(2) {
+  /*2nd element*/
+  grid-column: span 2;
+}
+
+.quote-featured {
+  background: rgb(255, 119, 119);
+  grid-column: span 2;
+}

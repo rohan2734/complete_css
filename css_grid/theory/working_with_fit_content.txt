@@ -1,0 +1,12 @@
+footer increases the size with mobile device 
+
+beacause we use flex box to position the elements  in footer below each 
+other 
+
+fit content takes an argument which is default size, 
+which will be used when content is smaller or requires less space than that
+
+if content requires more space than that , it gets only the specified size 
+
+
+

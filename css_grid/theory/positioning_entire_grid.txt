@@ -1,0 +1,7 @@
+justify-content:start is default
+
+increased the width and height of the container 
+
+justify-content is to align horizontally 
+align-content is for aligining vertically
+
