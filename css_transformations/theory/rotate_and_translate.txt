@@ -1,0 +1,24 @@
+translate function on transform property 
+
+we can use translateX and translateY 
+translateZ can be used for 3D 
+
+we can enter rem , percentage, etc
+
+when we use translateX(10rem)
+it is also moving down, since we rotated the 
+element
+
+so it is moving diagonally 
+so if we remove the rotation, it will move in 
+horizontally
+
+and after that ,we can also increase the width , 
+and then use text align
+
+also if you want to remove the extra part of the recomended badge 
+it will be overflow : hidden
+
+important:
+translateX and translateY axis changes when we rotated the element
+

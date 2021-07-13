@@ -1,0 +1,12 @@
+* transform:rotate('45deg') makes the element to 
+rotate around the center of the element 
+
+* transform-origin:  you can change the posiiton with which 
+it should change 
+* for ex: you can change it to left top, (default is center )
+
+left top translates with respect to top  left corner 
+you can also enter 1rem 1rem, 1 rem to the right, and 1 rem down from the top left corner 
+or 50%, it would be center (default)
+or we can also make it to 25% 50%
+50% 50% would be equal to center

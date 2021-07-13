@@ -1,0 +1,16 @@
+skew element is added on transform 
+it is used to skew the element on x axis or y axis 
+but here if we use skew function like this, and you only enter one value 
+you are skewing only on X axis, it is just like adding value to skewX
+
+if you enter skewX(20deg) somone pulled the website left a little bit 
+if you enter skewY(20deg) someone pulled the website up a little bit 
+
+if container is skewed but not image 
+
+to hide the overflow of the child elements
+you can add overflow:hidden
+
+scale:
+if you add 2 to it 
+it will increase the size to twice
