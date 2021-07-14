@@ -54,8 +54,9 @@ main {
     color: white;
     background: #ff5454;
     padding: 0.5rem;
-    transform: rotateZ(45deg) translateX(3.5rem) translateY(-1rem);
-    transform-origin: center;
+    /* transform: rotateZ(45deg) translateX(3.5rem) translateY(-1rem); where it should rotate itself */
+    transform: rotateZ(45deg) translate(3.5rem,-1rem);
+    transform-origin: center;/*chanages the origin*/
     width: 12rem;
     text-align: center;
 }
