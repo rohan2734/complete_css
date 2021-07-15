@@ -1,0 +1,13 @@
+perspective 1000 is,how far you are 
+fromthe object
+it is applied as function on the box 
+
+and to apply it as a property 
+it should be applied on the container 
+or parent
+
+you can also change the angle with perspective origin 
+
+ifit is right,it means that weare looking from the right angle
+
+youcan also add 500px to look more towards the right side

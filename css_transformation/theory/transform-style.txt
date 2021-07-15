@@ -1,0 +1,8 @@
+transform-style : flat(default)
+
+it maks the elements which arethere in it
+their bheaviour of 3d space is flat
+
+you can change to preserve-3d 
+it will preserves the 3d nature of 
+elements in the container

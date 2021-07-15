@@ -1,0 +1,6 @@
+if you are flipping and we are seeing 
+your back, pleasedont showit
+
+default is visible 
+
+for hiding we need touse hidden
