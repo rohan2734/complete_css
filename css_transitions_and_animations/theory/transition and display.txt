@@ -1,0 +1,29 @@
+special case 
+
+backdrop is shown by setting display:none 
+to dispay:block
+
+this happens because we add open class 
+to backdrop too
+
+now the problem is 
+in open class 
+we changed the opacity ,display:block 
+
+now we can thing that , so instead of 
+using display:none ,we can use opacity:0 
+and add transition property on backdrop 
+
+and add linear to opacity 
+it is a timing function, so 
+that we always move at same speed
+now if we reload,we see that,we cant click 
+the choose plan 
+
+the yes,no button is not displayed,since 
+backdrop has z index of 100
+
+so the solution is display:none on backdrop 
+
+but the problem is,animation is not applied 
+on the backdrop

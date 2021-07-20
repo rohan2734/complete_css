@@ -1,0 +1,11 @@
+when you search css timing functions on google 
+
+- easing functions cheatsheet 
+-  easings.net
+
+you will find a lot of values or timing functions 
+and if we hover over them , there is a demo 
+animation 
+
+you can also create your own timing function 
+by inspecting the cubic, and changing the positions of the handles

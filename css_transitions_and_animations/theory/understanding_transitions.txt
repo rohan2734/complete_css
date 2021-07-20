@@ -1,0 +1,63 @@
+transitions are builtinanimations
+they are added byby adding one property :transition 
+and by specifying which other property like opacity,or 
+position should be watched or animated if it changes
+
+ex: 
+box tobe moved towareds us . with transform and translateZ 
+then we can animate the change 
+
+we say 
+1.which properties to change 
+2. how long it should take
+3.initial delay 
+4.timing function : "start fast end slow "
+
+
+in themodal 
+
+dispay:none can also be achieved by opacity:0 
+but the difference is ,it will still be in the 
+Document object flow 
+
+and opacity, unlike display, we can watch it with transition 
+property
+
+transform:translateY(-3rem) moves it by upward
+
+we can also use top,but we use transform, when we want to 
+animate on this ,because it is watchable with transition and it is 
+hardware accelerated 
+
+now the idea is to change these two properties of opacity and
+transition with javascript 
+
+so go to open in shared.css 
+and add opacity and transform property 
+
+transform:translateY(0) brings it to the original 
+position
+
+and also make the opacity: 1 !important 
+also for transform , add !important 
+
+now we can apply transition too 
+so we can add transition and in that we 
+can add opacity 0.5s, (we can add time also )
+and instead of  0.5s we can also mention 500ms 
+now in same way, we can add 0.5s to transform too
+
+if we want to add only one we can, but if you want to add 
+more than one, add opacity 
+
+you can also add a timer function that is 
+ease-in or ease-out to the transition property 
+as
+opacity 200ms ease-in 
+ease-in means to start slower and ends faster
+
+we can also add a delay, that is 1s 
+then nothing hapens for 1s, and then it displays this 
+animation 
+
+opacity 200ms ease-in 1s
