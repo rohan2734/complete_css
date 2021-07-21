@@ -27,3 +27,26 @@ so the solution is display:none on backdrop
 
 but the problem is,animation is not applied 
 on the backdrop
+
+watching display wont work 
+or if you change the display from none to block or the other way around 
+then your transition is going to kick off , even if you are changing some 
+other property which is animatable 
+
+if we want it to be working still, we need  to use ,some hacky javascript
+we first add backrop style to block , and when closing, we need to put
+the other way around too , to none 
+
+that is also not enough,we also have to delay the start of the open 
+class , we can do by using set time out 
+
+what this does is, we ensure that we first of all set the display to none 
+or block ,or whatever we need 
+and then second step , we change that ,
+this ensures css to not change all the properties at one step 
+and therefore omits the transition 
+
+but it actually first of all changes the display=none  , and then 
+the other properties , and hence also plays the transition 
+
+alternative solution is to use z-index:100 !important for open
