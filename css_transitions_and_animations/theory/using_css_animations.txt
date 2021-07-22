@@ -1,0 +1,66 @@
+css transitions 
+animate transitino of a css property from 
+one property to another 
+
+css animations are css transitions++
+if we have  a block ,and may be want to move to a bigger block 
+and color, we can ofcourse use transition ,but if we want more 
+control ,we can use animations 
+
+in css animations ,
+we define keyframes, and we have got full control, what a 
+style  of an element is  , at a given point of time 
+
+we are looking to animate, start hosting CTA button 
+
+when the page loads,we can wiggle it, rotate a bit right, and
+rotate a bit left 
+
+with transition it is very hard, it should rotate, and stop 
+after a certain time 
+until this,it should just iterate b/w moving up and moving down 
+
+an animation is what we need
+
+it always starts with defining key frames
+@keyframes name {
+    from {
+        //defines the starting frame
+        transform:rotateZ(0) //we want to start with,where it is initially 
+    }
+    to{
+        //defines the ending frame 
+    }
+}
+
+this property  will be applied to any element 
+this is not a selector, 
+
+rotateZ(10deg) moved the element little bit upward
+
+then we can use this animation as 
+.class{
+    animation: keyframe-name duration delay iterations direction; 
+}
+.main-nav__item--cta{
+    animation: wiggle 200ms 3s 8 alternate;
+}
+//delay is right from the beginning of loading the page 
+//goback to the starting state and start the next iteration or 
+//does it alternate and move back to starting state 
+
+//we can also assign reverse instead of alternate 
+//but it is rough ,since it reverses back the keyframes
+
+fill state defines, should the properties  set during the animation 
+should that be kept when the animation is finished or not 
+
+default is not keeping it
+
+direction can also be forwards also , what it does is,it keeps 
+the final position 
+
+remove alternate and use forwards , you will see that it finishes 
+in rotated position
+
+if we use backwards,it will keep the starting state
