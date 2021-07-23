@@ -1,0 +1,13 @@
+the selector can be anyelement 
+but if it is not root 
+and it is some element 
+then that variable can be used only in 
+that element
+
+
+we can also proivde a fall back value
+if the variable value is not defined yet 
+
+browser_support 
+we can use can I use ___ ?
+
