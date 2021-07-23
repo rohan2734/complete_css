@@ -19,5 +19,3 @@ timing function
 
 isnt it wierd to mention it? when we have already keyframes 
 itmentions ,how the change from keyframes from 0 to 50% will happen 
-
-
