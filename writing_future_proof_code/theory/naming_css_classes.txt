@@ -1,0 +1,31 @@
+choosing class names correctly 
+
+classnames
+Dos
+use kebab case 
+
+Dont:
+use snake case 
+
+because CSS is case insensitive 
+
+Dos:
+name your classes by title 
+ex: .page-title 
+
+we know that this refers to the page title 
+
+Donts:
+naming by style
+ex" .title-blue 
+
+we followed a convention called Block element Modifier
+(BEM)
+
+and also avoid clashes
+
+therefore BEM enforces a way of naming the classes 
+and avoids the risk 
+
+ . Block _ _ element -- Modifier
+
