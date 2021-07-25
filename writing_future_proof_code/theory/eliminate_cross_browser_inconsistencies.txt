@@ -1,0 +1,47 @@
+some browsers are cross browsers inconsistencies 
+
+different browsers use different defaults
+
+default font family the h1 tags get 
+
+some elements have different margins, paddings 
+different box sizing 
+boxsizing is set to border box in some browsers 
+
+this is not bad
+different browsers use different defaults
+
+some users might pick the browsers 
+because of some of the defaults it offers 
+
+but some defaults are also annoying and you want
+to have a consistent look  of your webpage across 
+browsers too 
+
+therefore we can implement some reset libraries like normalise
+css 
+which is a css package you add 
+as one of the first imports or as the first import in 
+your HTMLfile , which overwrites the global browser defaults
+
+ex:
+set box sizing to border box for all elements or you do that
+manually
+
+
+* {
+  box-sizing: border-box;
+}
+
+this is universal selector
+
+we can also download a package but it will increase the 
+page size 
+
+so keeping in mind that, resetting some features, makes sense
+and that you can do it manually with the star
+selector 
+or by using packages is defeinitely something which is 
+important
+
+
