@@ -1,0 +1,4 @@
+when it is transform rotateX (80),it is just about to flip 
+when itis transform rotateX(90) it has flipped 
+
+transform rotateX rotates away from you

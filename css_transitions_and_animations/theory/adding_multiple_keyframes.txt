@@ -1,0 +1,21 @@
+we can also add multiple keyframes 
+like percentage values 
+
+@keyframes wiggle {
+    0%{
+        transform: rotateZ(-10deg)
+
+    }
+}
+
+it makes the animation way better 
+than using the alternate method 
+
+we can also add ease-out to animation 
+
+animation : wiggle 400ms 3s 8 ease-out none;
+
+timing function 
+
+isnt it wierd to mention it? when we have already keyframes 
+itmentions ,how the change from keyframes from 0 to 50% will happen 

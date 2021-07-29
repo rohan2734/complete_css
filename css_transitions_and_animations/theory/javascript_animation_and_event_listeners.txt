@@ -1,0 +1,12 @@
+we can use javascript event listeners 
+on the animations 
+
+we can also see the logs of event started
+8 iterations and ends 
+
+we can also see the time elapsed 
+that is 1.2 ,1.4 ... 3.2 
+
+this is because we used 8 iterations and duration of
+400ms
+

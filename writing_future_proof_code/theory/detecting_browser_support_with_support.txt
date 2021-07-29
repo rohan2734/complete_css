@@ -1,0 +1,27 @@
+some browsers dont even support 
+these prefixed versions ,so support quries can help with that
+
+condition  is a css property value pair 
+where you can check that property and value 
+if that is supported  by the browser 
+if the browser cant, then it will not execute the code
+between the curly braces 
+
+@supports (display:flex){
+    .container{
+        display:grid;
+    }
+}
+
+in our project, we can check if our browser will support a grid 
+or not
+
+after adding it ,
+we need to shift the body code up of the support query 
+and remove the grid related properties 
+
+also overwrite the padding:0 
+since we already added a row in the grid for the padding 
+
+we can also use and ,or,not to build complex support queries 
+

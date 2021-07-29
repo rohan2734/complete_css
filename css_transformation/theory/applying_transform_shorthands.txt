@@ -1,0 +1,7 @@
+there are 4 imp transform functins
+
+rotate,translte,scale and skew 
+
+rotate is by default rotateZ 
+
+translate 3.5rem,-1rem

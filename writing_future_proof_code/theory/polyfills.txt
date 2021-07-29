@@ -1,0 +1,51 @@
+polyfill is a javascript package
+which enables certain CSS Features in Browsers 
+which would not support it otherwise
+
+vendor prefixes which helps us support older browsers 
+and about the support queries which helps us implement nice
+fallbacks 
+
+sometimes we dont want to implement a fallback, we want 
+to use the cool Feature, which we can use in modern browsers too
+
+some CSS Features called polyfill exists,these are
+javascript packages which we can download and import into the code 
+
+then they will simply parse the CSS code and styleyour page 
+accordingly 
+
+basically they implement  a certain feature, by fallng back
+to other css features and kind of replicating the look 
+which we wanted to have
+
+now polyfills are not available for every CSS feature,
+ex:
+for the grid, there are no polyfills 
+because the grid uses some techniques, that cant be replicated
+easily with vanilla CSS and javascript
+
+for some features, polyfills are an option 
+
+polyfills come at a cost, 
+it is a javascriptpackage, you download, you add and  import 
+into HTML File 
+
+therefore users have to download it, then it will exeucte
+and parse the DOM, and manipulate the  stlyes 
+this all impacts the performance of the page
+
+some features might be complicated to replicate , 
+we should consider if implementing a fallback with supports
+isnt a better solution
+
+polyfills are a great tool but you should use them with care 
+and use them rarely
+
+ex: 
+Rem ,
+older browsers dont support rem 
+there is a polyfill which we candownload, and importwhich will 
+convertall the rem declarations to pixels 
+which are supported by older browsers too
+
