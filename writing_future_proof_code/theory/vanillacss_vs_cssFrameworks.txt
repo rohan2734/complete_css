@@ -1,0 +1,57 @@
+- css frameworks like bootstrap 
+
+- we have vanilla CSS , we write basic css with basic features
+
+we have component frameworks like, foundation, or bootstrap4
+these are 3rd party packages 
+
+- they are packages of css code , which gives 
+pre styled components and utility features and classes 
+
+- utility frameworks 
+tailwand css
+
+- bootstrap 
+
+getbootstrap.com 
+
+bootstrap package is a css framework , which you can simply install 
+by putting the link in the html file, that will download the  bootstrap styles
+
+then we can use their layout utilies like their own grid 
+
+they also give alerts, buttons, 
+these are all normal html elements, but by attatching the css classes,they 
+immediately look the way , they look here 
+
+we save a lot of time writing the code 
+
+- tailwind CSS 
+
+it is an alternative approach to bootstrap , but it follows a different approach 
+this doesnt offer  , with a bunch of components 
+
+it offers a bunch of utilies 
+
+these classes allows you to achieve certain looks, and behaviours 
+
+- we get more control on the final outcome 
+- and the look of the outcome ,
+
+which one should you use them ?
+
+Vanilla CSS                     Component frameworks                Utility frameworks 
+
+Full Control                    Rapid Development                   faster Development
+No unnecessary Code             Follow Best practices               follow best practices 
+Name classes as you like        No need to be an Expert             no Expert knowledge needed (needed more than component frameworks)
+
+Disadvantages                   
+you have to build everything    no or little control                little control
+scratch                                                             
+danger of bad code              unnecessary overhead code           unnecessary overhead code
+
+                                All webstes look the same           
+
+
+
